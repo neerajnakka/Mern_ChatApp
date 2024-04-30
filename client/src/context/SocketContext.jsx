@@ -12,7 +12,7 @@ export const SocketContextProvider = ({ children }) => {
   useEffect(() => {
     if (authUser) {
       //creating a socket connection for client and passing backend url
-      const socket = io('http://localhost:5000', {
+      const socket = io('https://mern-chatapp-rfj5.onrender.com/', {
         query: {
           userId: authUser._id,
         },
