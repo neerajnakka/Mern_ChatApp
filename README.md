@@ -56,5 +56,5 @@ To clone and run the project locally, you can follow these steps:
    ```bash
    npm start
    ```
-```
+
 
